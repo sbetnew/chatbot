@@ -5,7 +5,7 @@ import openai
 from llama_index.core import SimpleDirectoryReader
 from llama_index.core import Settings
 
-openai.api_key = "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"
+openai.api_key = st.secrets['OPEN_AI_TOKEN']
 st.header("Converse com a gente 💬 📚")
 
 if "messages" not in st.session_state.keys(): # Initialize the chat message history
