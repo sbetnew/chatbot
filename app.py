@@ -10,7 +10,7 @@ st.header("Converse com a gente 💬 📚")
 
 if "messages" not in st.session_state.keys(): # Initialize the chat message history
     st.session_state.messages = [
-        {"role": "assistant", "content": "Me faça uma pergunta sobre a incorporadora ICN3"}
+        {"role": "assistant", "content": "Me faça uma pergunta sobre os imóveis da incorporadora ICN3"}
     ]
 
 @st.cache_resource(show_spinner=False)
