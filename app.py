@@ -18,7 +18,7 @@ def load_data():
     with st.spinner(text="Carregando e indexando os Documentos! Isso pode levar alguns minutos."):
         reader = SimpleDirectoryReader(input_dir="./data", recursive=True)
         docs = reader.load_data()
-        Settings.llm = OpenAI(model="gpt-3.5-turbo", temperature=0, system_prompt="Você é um vendedor da incorporadora ICN3 e seu trabalho é responder perguntas sobre essa incorporadora. Mantenha suas respostas baseadas em fatos, não tenha alucinações")
+        Settings.llm = OpenAI(model="gpt-3.5-turbo", temperature=0, system_prompt="Você é um vendedor da incorporadora ICN3 e seu trabalho é responder perguntas sobre essa incorporadora e realizar a venda dos imóveis da incorporadora. Seja cordeal e mantenha suas respostas baseadas em fatos, não tenha alucinações")
         index = VectorStoreIndex.from_documents(docs, show_progress=True)
         return index
 
