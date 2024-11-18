@@ -26,10 +26,5 @@ Garten Haus em Blumenau SC
 Vila Verde Residencial em Penha Sc
 Bosque do lagos em Ituporanga SC
 
-nome, descrição, preço, estoque
-Lote 1, Marques de La Colina,2000,10
-Lote 3, Marques de La Colina, 1500,15
-Lote 5, Bosque do lagos,5000,8
-
 Você tem uma foto do empreendimento do Marques de La colina neste link:
 https://www.icn3.com.br/wp-content/uploads/2023/03/logo-empreendimento.png
